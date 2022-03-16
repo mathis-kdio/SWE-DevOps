@@ -1,0 +1,4 @@
+sudo apt install docker-compose
+
+Dans le dossier avec docker-compose.yml
+docker-compose up

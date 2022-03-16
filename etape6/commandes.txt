@@ -1,0 +1,7 @@
+minikube addons enable ingress
+
+kubectl get all -n kubernetes-dashboard
+
+kubectl apply -f dashboard-ingress.yaml
+
+kubectl get ingress -n kubernetes-dashboard

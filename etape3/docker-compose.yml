@@ -1,0 +1,16 @@
+# Compose file version
+version: "3"
+
+# services
+services:
+  nodejs1:
+    image: docker/dockernodejs1
+    container_name: nodejs1
+    ports:
+      - "8080:80"
+
+  nodejs2:
+    image: docker/dockernodejs2
+    container_name: nodejs2
+    ports: 
+      - "8081:80"

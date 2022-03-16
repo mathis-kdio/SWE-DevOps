@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "name": "dockernodejsproject2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Mathis",
+  "license": "MIT",
+  "description": "nodejsproject2"
+}

@@ -1,0 +1,7 @@
+
+Dans le dossier avec le fichier Dockerfile
+docker build -t docker/dockernodejs1 .
+docker build -t docker/dockernodejs2 .
+
+Run image docker
+docker container run -it -p 8080:80 -d --name dockerNodejs docker/dockernodejs1
